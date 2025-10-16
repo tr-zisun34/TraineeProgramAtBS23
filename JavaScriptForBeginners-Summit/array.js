@@ -46,3 +46,24 @@ console.log(p);
 let q=flowers.pop(); //remove last element
 console.log(q);
 console.log(flowers);
+
+const numbers = [45, 4, 9, 16, 25];
+numbers.sort(function(a, b){return a - b});
+document.getElementById("num_sort").innerHTML = numbers.join("<br>");
+
+//Sorting an array in order
+
+const points = [40, 100, 1, 5, 25, 10];
+document.getElementById("sort").innerHTML = points;  
+
+function myFunction1() {
+  points.sort();
+  document.getElementById("sort").innerHTML = points;
+}
+function myFunction2() {
+  points.sort(function(a, b){return a - b});
+  document.getElementById("sort").innerHTML = points;
+}
+
+
+//Fisher Yates shuffle or Knuth shuffle
