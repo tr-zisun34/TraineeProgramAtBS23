@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rearrange Name</title>
+</head>
+<body>
+    <h3>Here is all the names of students in our class alphabetically:</h3>
+    <ul id="nameList"></ul>
+
+    <script>
+        const names = ["Zisun", "John", "Jane", "Alice", "Bob", "Charlie", "Diana"];
+        names.sort();
+        const nameList = document.getElementById("nameList");
+        names.forEach(name => {
+            const li = document.createElement("li");
+            li.textContent = name;
+            nameList.appendChild(li);
+        });
+    </script>
+</body>
+</html>
