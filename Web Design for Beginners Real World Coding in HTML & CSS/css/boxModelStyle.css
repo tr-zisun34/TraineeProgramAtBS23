@@ -1,0 +1,21 @@
+.box-a {
+    background-color: lightblue;
+    padding: 30px;
+    border: 5px solid blue;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding and border are included in width and height */
+}
+
+.box-b {
+    background-color: lightgreen;
+    padding: 20px;
+    border: 5px solid green;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px solid green;
+    margin-top: 10px;
+}

@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+    font-size: 35px;
+}
+
+p {
+    color: rgb(183, 109, 109);
+    font-size: 16px;
+}
+
+header p {
+    color: rgb(26, 234, 36);
+    font-size: 20px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+footer .highlight {
+    background-color: lightgray;
+}
